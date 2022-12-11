@@ -36,15 +36,15 @@
                     </div>
                     <div class="input-group col-lg">
                         <span class="input-group-text">First and last name</span>
-                        <input type="text" aria-label="First name" class="form-control">
-                        <input type="text" aria-label="Last name" class="form-control">
+                        <input type="text" id="first" aria-label="First name" class="form-control">
+                        <input type="text" id="last" aria-label="Last name" class="form-control">
                     </div>
                     <div class="input-group col">
                         <div class="row">
-                          <div class="col">
+                          <div class="col-md-9">
                             Please upload a sample image.
                           </div>
-                          <div class="col">
+                          <div class="col-lg">
                             <input type="file" class="form-control" id="inputGroupFile01">
                             <label class="input-group-text" for="inputGroupFile01">Upload</label>
                           </div>
@@ -60,7 +60,9 @@
                             <span class="input-group-text">Instagram or Website:</span>
                             <input type="text" class="form-control" for="social" placeholder="@username or website.com">
                         </div>
-                  
+                  </div>
+                <div class="col-lg-1">
+                  <button type="submit" class="form-control" id="submit">Submit</button>
                 </div>
             </div>
         </form>
